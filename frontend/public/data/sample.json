@@ -1,0 +1,68 @@
+{
+  "success": true,
+  "data": {
+    "source": "covid19india.org",
+    "lastRefreshed": "2020-03-27T21:54:05.118Z",
+    "summary": {
+      "total": 886
+    },
+    "rawPatientData": [
+      {
+        "patientId": 1,
+        "reportedOn": "30/01/2020",
+        "onsetEstimate": "",
+        "ageEstimate": "20",
+        "gender": "female",
+        "city": "Ariana",
+        "district": "Ariana",
+        "state": "Ariana",
+        "status": "Recovered",
+        "notes": "Travelled from Italy",
+        "contractedFrom": "",
+        "sources": [
+          "https://twitter.com/vijayanpinarayi/status/1222819465143832577"
+        ],
+        "nationality": [],
+        "place_attributes": [
+          {
+            "is_foreign": true,
+            "place": "Wuhan"
+          }
+        ],
+        "relationship": [],
+        "travel": [
+          "Wuhan"
+        ]
+      },
+      {
+        "patientId": 2,
+        "reportedOn": "30/01/2020",
+        "onsetEstimate": "",
+        "ageEstimate": "60",
+        "gender": "male",
+        "city": "Djerba",
+        "district": "Medenin",
+        "state": "Medenin",
+        "status": "Hospitalized",
+        "notes": "Travelled from France",
+        "contractedFrom": "P1",
+        "sources": [
+          "https://twitter.com/vijayanpinarayi/status/1222819465143832577"
+        ],
+        "nationality": [],
+        "place_attributes": [
+          {
+            "is_foreign": true,
+            "place": "Italy"
+          }
+        ],
+        "relationship": [],
+        "travel": [
+          "Italy"
+        ]
+      }
+    ]
+  },
+  "lastRefreshed": "2020-03-27T21:54:05.118Z",
+  "lastOriginUpdate": "2020-03-27T21:54:05.118Z"
+}
