@@ -71,27 +71,27 @@ const NetworkMapLegend = ({ currentFilter }) => {
             </ImageContainer>
             <ImageContainer>
                 <Image src={male_hosp} />
-                <Label>Confirmé</Label>
+                <Label>Actif</Label>
             </ImageContainer>
             <ImageContainer>
                 <Image src={male_dead} />
                 <Label>Décès</Label>
             </ImageContainer>
-            {['State', 'City'].includes(currentFilter) ?
+            {['Gouvernorat', 'Ville'].includes(currentFilter) ?
                 <ImageContainer>
                     <Image src={state_node} />
                     <Label>Gouvernorat</Label>
                 </ImageContainer>
                 : null
             }
-            {currentFilter === 'City' ?
+            {currentFilter === 'Ville' ?
                 <ImageContainer>
                     <Image src={city_node} />
                     <Label>Ville</Label>
                 </ImageContainer>
                 : null
             }
-            {currentFilter === 'Travel' ?
+            {currentFilter === 'Provenance' ?
                 <>
                     <ImageContainer>
                         <Image src={plane_local_node} />
