@@ -63,6 +63,9 @@ import {
   female_cured,
   female_hosp,
   female_dead,
+  unknown_cured,
+  unknown_dead,
+  unknown_hosp,
 } from '../images'
 import dotProp from 'dot-prop-immutable'
 
@@ -93,7 +96,15 @@ export function getIcon(patient) {
       return female_hosp
     }
   } else {
-    return female_hosp
+    if (patient.status === 'Recovered') {
+      return unknown_cured
+    } else if (patient.status === 'Hospitalized') {
+      return unknown_hosp
+    } else if (patient.status === 'Deceased') {
+      return unknown_dead
+    } else {
+      return unknown_hosp
+    }
   }
 }
 

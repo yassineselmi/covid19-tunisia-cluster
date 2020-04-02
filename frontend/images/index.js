@@ -5,6 +5,11 @@ import female_cured from './female/cured.png'
 import female_dead from './female/dead.png'
 import female_hosp from './female/hospitalized.png'
 
+import unknown_cured from './unknown/cured.png'
+import unknown_dead from './unknown/dead.png'
+import unknown_hosp from './unknown/hospitalized.png'
+
+
 import abroad from './filter/abroad.png'
 import state from './filter/state.png'
 import city from './filter/city.png'
@@ -22,6 +27,9 @@ export {
   female_cured,
   female_dead,
   female_hosp,
+  unknown_cured,
+  unknown_dead,
+  unknown_hosp,
   state,
   city,
   state_node,
